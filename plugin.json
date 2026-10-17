@@ -6,5 +6,6 @@
   "entryAssembly": "LoupixDeck.Plugin.ImeControl.dll",
   "platform": "Windows",
   "author": "dokugasu",
+  "iconFile": "icon.png",
   "description": "Turn the IME of the active window on or off.\n\n--\n\nアクティブなウィンドウの IME を ON / OFF します。"
 }

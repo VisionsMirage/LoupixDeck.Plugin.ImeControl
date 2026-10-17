@@ -11,6 +11,7 @@ public sealed class ImeControlPlugin : LoupixPlugin
         Version = new Version(1, 0, 0),
         SdkVersion = SdkInfo.Version,
         Author = "dokugasu",
+        Icon = LoadEmbeddedIcon("ImeControl.icon.png"),
         Description = "Turn the IME of the active window on or off.\n\n--\n\nアクティブなウィンドウの IME を ON / OFF します。"
     };
 
@@ -22,6 +23,15 @@ public sealed class ImeControlPlugin : LoupixPlugin
     {
         yield return new SetImeCommand("ImeControl.Off", "IME OFF", open: false);
         yield return new SetImeCommand("ImeControl.On", "IME ON", open: true);
+    }
+
+    private static byte[] LoadEmbeddedIcon(string name)
+    {
+        using var s = typeof(ImeControlPlugin).Assembly.GetManifestResourceStream(name)
+                      ?? throw new InvalidOperationException($"Missing resource: {name}");
+        using var ms = new MemoryStream();
+        s.CopyTo(ms);
+        return ms.ToArray();
     }
 }
 

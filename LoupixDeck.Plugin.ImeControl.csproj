@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <None Include="plugin.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="icon.png" CopyToOutputDirectory="PreserveNewest" />
+    <EmbeddedResource Include="icon.png" LogicalName="ImeControl.icon.png" />
   </ItemGroup>
 
 </Project>
