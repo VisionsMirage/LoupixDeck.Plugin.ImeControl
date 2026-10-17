@@ -10,7 +10,7 @@ public sealed class ImeControlPlugin : LoupixPlugin
         Name = "IME Control",
         Version = new Version(1, 0, 0),
         SdkVersion = SdkInfo.Version,
-        Author = "dokugasu",
+        Author = "VisionsMirage",
         Icon = LoadEmbeddedIcon("ImeControl.icon.png"),
         Description = "Turn the IME of the active window on or off.\n\n--\n\nアクティブなウィンドウの IME を ON / OFF します。"
     };
