@@ -1,0 +1,10 @@
+{
+  "id": "imecontrol",
+  "name": "IME Control",
+  "version": "1.0.0",
+  "sdkVersion": "1.28.0",
+  "entryAssembly": "LoupixDeck.Plugin.ImeControl.dll",
+  "platform": "Windows",
+  "author": "dokugasu",
+  "description": "Turn the IME of the active window on or off.\n\n--\n\nアクティブなウィンドウの IME を ON / OFF します。"
+}
