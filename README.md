@@ -23,7 +23,7 @@ Both commands can be assigned to touch buttons, physical keys and dials.
 
 Typical uses:
 
-- Put **IME OFF** before a text macro so commands such as `/gs change reaper`
+- Put **IME OFF** before a text macro so commands such as `/gs change リーパー`
   are typed in half-width characters, without IME conversion getting in the way.
 - Switch to IME OFF before a game or a terminal and back to IME ON for chat.
 
@@ -92,8 +92,8 @@ the host provides it.
 
 使い方の例：
 
-- テキスト送信マクロの前に **IME OFF** を入れておくと、`/gs change reaper`
-  のようなコマンドを、IME の変換に邪魔されずに半角で入力できます。
+- テキスト送信マクロの前に **IME OFF** を入れておくと、`/gs change リーパー`
+  のような日本語を含むコマンドを、IME の変換に邪魔されずに半角で入力できます。
 - ゲームやターミナルを使う前に IME OFF、チャットのときに IME ON に切り替えます。
 
 ### 動作環境
